@@ -15,7 +15,7 @@ Include:
 For an update problem, say whether it happened while checking, downloading,
 verifying, installing or restarting. A screenshot of the error can help.
 Remove credentials, private project details and personal information from anything
-you share. This repository's issues will be public when public downloads launch.
+you share. Issues in this repository are public.
 
 ## Common situations
 
