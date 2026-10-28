@@ -5,9 +5,24 @@ Application source, builds and signing keys are maintained separately.
 
 ## Current state
 
-The repository remains private while the first public distribution is prepared.
-Making it public, publishing a release and promoting an update feed are separate
-actions. Each waits for the maintainer's explicit go-ahead.
+Public repository visibility, publishing a release and promoting an update feed
+are separate actions. Each waits for the maintainer's explicit go-ahead. Opening
+the repository does not publish an installer or enable an update feed.
+
+## Keep application source out
+
+Keep only README.md, SUPPORT.md, RELEASES.md and .gitignore in Git. Never push an
+application-source branch or its history here.
+Upload finalized installers and updater packages as Release assets; do not commit
+build output. GitHub's generated source archives contain this small documentation
+repository, not the application source.
+
+The .gitignore uses a documentation-only allowlist. It is a convenience guard,
+not a security boundary: forced adds and pushes can bypass ignore rules. Review
+changes before pushing and keep this repository's checkout separate from the
+application source checkout. Before opening visibility or publishing artifacts,
+audit every branch, tag and historical tree for unexpected files. Deleting a file
+from the latest commit does not remove it from Git history.
 
 ## Artifact contract
 

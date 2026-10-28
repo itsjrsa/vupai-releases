@@ -41,6 +41,10 @@ Release assets include desktop installers, updater archives, detached signatures
 and checksum metadata. The app checks its update feed separately; no GitHub login
 will be required for public downloads.
 
+Only distribution documentation belongs in this
+repository's Git history. Application source, source branches, signing keys and
+build directories must stay out. Installers are attached to Releases.
+
 The application source is maintained separately. Installers include the applicable
 licenses and third-party notices, also available in the app's **About & support**.
 
