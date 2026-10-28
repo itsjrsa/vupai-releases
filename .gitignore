@@ -1,6 +1,7 @@
-# This repository holds release metadata only. Attach binaries to Releases.
+# Keep this repository focused on distribution documentation.
+# Attach installer/update binaries to GitHub Releases.
 *
 !/.gitignore
 !/README.md
-!/community-beta.json
-!/community-beta-updater.json
+!/SUPPORT.md
+!/RELEASES.md
